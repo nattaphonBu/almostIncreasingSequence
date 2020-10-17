@@ -12,6 +12,11 @@ class AlmostIncreaseSequence(unittest.TestCase):
         self.assertEqual(actual, expected)
 
 def almostIncreaseSequence(list_of_number):
+    default = 0
+    for i in list_of_number:
+        number = i
+        
+        
         return True
 
 unittest.main()
